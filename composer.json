@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {"Krak\\MDToJira\\": "src"}
+    },
+    "require": {
+        "jmsfwk/adf-builder": "^1.0",
+        "krak/fn": "^1.2",
+        "league/commonmark": "^2.3",
+        "lesstif/php-jira-rest-client": "^4.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/http-client": "^6.0",
+        "symfony/var-dumper": "^6.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
